@@ -1,7 +1,21 @@
 @import "bootstrap";
 
+body {
+  background: image_url('beanstalk-dark.png');
+}
+
 .portfolio-picture {
-  width: 700px;
+  width: 300px;
   border-style: solid;
   border-color: #00C122;
+  margin-top: 40px;
+  border-radius: 100%;
+}
+
+h1{
+  color: #00C122;
+}
+
+.make-it-green{
+  color: #00C122;
 }
