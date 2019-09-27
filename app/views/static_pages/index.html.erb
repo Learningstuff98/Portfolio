@@ -1,6 +1,6 @@
 <body>
   <div class="text-center make-it-green">
-    <%= image_tag 'me.JPG', class: 'portfolio-picture' %>
+    <%= image_tag 'me.JPG', class: 'portfolio-picture img-fluid' %>
     <br/>
     <h2>Andy Strube</h2>
     <hr class="line">
@@ -15,43 +15,22 @@
     <br/><br/>
 
     <div class="container">
-      <div class="row">
-
-        <div class="box">
-          <div class="sub-box">
-            <span class="flixter-title">
-              Flixter
-            </span>
-            <%= link_to 'Go To Site', 'https://flixter-andy-strube.herokuapp.com/', class: 'make-it-green'%>
-            <a class="fa fa-github-square fa-2x make-it-green" href="https://github.com/Learningstuff98/flixter"></a>
-          </div>
-          <p>
-            Users can upload video courses that are divided up into sections and individual lessons. Users who uploaded 
-            a course can rearrange the order of course sections and lessons.
-          </p>
-          <p>
-            Technical skills: CSS, HTML, jQuery, PostgreSQL, Ruby on Rails.
-          </p>
+      <div class="box col-10">
+        <div class="sub-box">
+          <span class="flixter-title">
+            Flixter
+          </span>
+          <%= link_to 'Go To Site', 'https://flixter-andy-strube.herokuapp.com/', class: 'make-it-green'%>
+          <a class="fa fa-github-square fa-2x make-it-green" href="https://github.com/Learningstuff98/flixter"></a>
         </div>
-
-        <div class="box">
-          <div class="sub-box">
-            <span class="grammable-title">
-              Grammable
-            </span>
-            <span class="links-for-grammable">
-              <%= link_to 'Go To Site', 'https://grammable-andy-strube.herokuapp.com/', class: 'make-it-green'%>
-              <a class="fa fa-github-square fa-2x make-it-green" href="https://github.com/Learningstuff98/grammable"></a>
-            </span>
-          </div>
-          <p>
-            Users can upload images and make comments. Was developed using TDD.
-          </p>
-          <p>
-            Technical skills: CSS, HTML, PostgreSQL, Ruby on Rails
-          </p>
-        </div>
-
+        <%= image_tag 'flixter.png', class: 'flixter-picture img-fluid' %>
+        <p>
+          Users can upload video courses that are divided up into sections and individual lessons. Users who uploaded 
+          a course can rearrange the order of course sections and lessons.
+        </p>
+        <p>
+          Technical skills: CSS, HTML, jQuery, PostgreSQL, Ruby on Rails.
+        </p>
       </div>
     </div>
 
