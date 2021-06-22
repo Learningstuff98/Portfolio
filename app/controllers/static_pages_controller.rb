@@ -2,7 +2,16 @@ class StaticPagesController < ApplicationController
 
   def index
     visit = Visit.create()
-    @visit_count = Visit.all.count
+    @images = [
+      'ruby.png',
+      'rails.png',
+      'javascript.png',
+      'react.png',
+      'html.png',
+      'css.png',
+      'git.png',
+      'postgresql.png'
+    ]
   end
 
 end
