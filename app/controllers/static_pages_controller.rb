@@ -6,10 +6,10 @@ class StaticPagesController < ApplicationController
       'ruby.png',
       'rails.png',
       'javascript.png',
-      'react.png',
+      'git.png',
       'html.png',
       'css.png',
-      'git.png',
+      'react.png',
       'postgresql.png'
     ]
   end
