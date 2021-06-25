@@ -7,11 +7,13 @@ body {
 }
 
 .portfolio-picture {
-  width: 300px;
-  border-style: solid;
-  border-color: #00C122;
   margin-top: 40px;
+  width: 300px;
+  border: double 4px transparent;
   border-radius: 100%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(0, 194, 194), #00b621);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .make-it-green{
@@ -34,13 +36,14 @@ body {
   margin-left: 20px;
 }
 
-.box{
-  background: rgb(64, 66, 64);
-  border: 2px solid;
+.box {
   border-radius: 10px;
-  border-color: #00C122;
   margin-top: 15px;
   padding: 0px;
+  border: double 3px transparent;
+  background-image: linear-gradient(rgb(64, 66, 64), rgb(64, 66, 64)), radial-gradient(circle at top left, rgb(0, 194, 194), #00b621);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .sub-box{
