@@ -9,8 +9,7 @@ class StaticPagesController < ApplicationController
       'git.png',
       'html.png',
       'css.png',
-      'react.png',
-      'postgresql.png'
+      'react.png'
     ]
   end
 

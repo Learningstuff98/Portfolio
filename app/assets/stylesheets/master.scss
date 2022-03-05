@@ -2,8 +2,12 @@
 @import "font-awesome";
 
 body {
-  background: linear-gradient(to right, rgb(49, 114, 60), #202020, rgb(49, 114, 60));
+  background: #EFEDE7;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+a {
+  color: green;
 }
 
 .portfolio-picture {
@@ -11,52 +15,16 @@ body {
   width: 300px;
   border: double 4px transparent;
   border-radius: 100%;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(0, 194, 194), #00b621);
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(0, 194, 194), green);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
 
-.make-it-green{
-  color: #00C122;
+.link {
+  padding: 10px;
 }
 
-.line{
-  height: 3px;
-  border-radius: 50%;
-	background-color: #919191;
-	border: none;
-	width: 175px;
-}
-
-.resume{
-  margin-left: 20px;
-}
-
-.linkedin{
-  margin-left: 20px;
-}
-
-.box {
-  border-radius: 10px;
-  margin-top: 15px;
-  padding: 0px;
-  border: double 3px transparent;
-  background-image: linear-gradient(rgb(64, 66, 64), rgb(64, 66, 64)), radial-gradient(circle at top left, rgb(0, 194, 194), #00b621);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-}
-
-.sub-box{
-  background: rgb(48, 51, 48);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.project-title{
-  font-size: 40px;
-}
-
-.container{
+.container {
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -68,22 +36,6 @@ body {
   justify-content: center;
 }
 
-.picture{
-  margin-top: 10px;
-}
-
-.chess-picture{
-  height: 600px;
-}
-
-.completion-info {
-  font-size: 30px;
-}
-
-.project-links {
-  font-size: 20px;
-}
-
 .tech-icon {
   height: 100px;
   margin: 20px;
@@ -92,4 +44,8 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.divider-line {
+  border-top: 1px solid;
 }
