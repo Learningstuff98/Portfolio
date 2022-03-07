@@ -1,69 +1,70 @@
 <body>
   <div class="text-center">
     <%= image_tag 'me.JPG', class: 'portfolio-picture img-fluid' %>
-    <br/>
-    <h2>Andy Strube</h2>
-    <h4>andystrube64@gmail.com</h4>
-    <h4>
-      <a class="link" href="https://github.com/Learningstuff98">Github</a>
-      <a class="link" href="https://www.linkedin.com/in/andy-strube-6231ba152/">Linkedin</a>
-      <a class="link" href="https://docs.google.com/document/d/1qm4nBdIZfsx8zh4IwYvkVuQYclpOXUCVxnC9vV3_eBM/edit">Resume</a>
-    </h4>
 
-    <br/>
-
-    <h3>About me</h3>
-
-    <h4 class="container col-6">
-      Welcome to my portfolio site!
-      I am a fullstack web developer who enjoys developing high quality websites that have excellent responsiveness.
-      <%= "I greatly enjoy using Ruby on Rails and React and I'm eager to learn new technologies." %>
-      I always think from the perspective of the user to create the best possible user experience.
-    </h4>
-
-    <br/>
-
-    <h3>Volunteer Work with the Ruby for Good Human Essentials App</h3>
-
-    <h4 class="container col-6">
-      Implemented full stack functionality that empoweres non-technical site admins to edit user facing content dynamically across different domains
-      along with a search feature that empowers users by allowing them to find information efficiently.
-      Built with Ruby on Rails, Rspec, HTML, Bootstrap and Tailwindcss.
-    </h4>
- 
-    <br/>
-
-    <h3>Education</h3>
-
-    <h4 class="container col-6">
-      UC Berkeley Full Stack  Web Development Certification  March 2019 - August 2019
-    </h4>
-
-    <h4 class="container col-6">
-      6 month coding bootcamp that focused on learning how to make full stack websites using
-      Ruby on Rails, Javascript and PostgreSQL.
-    </h4>
-
-    <br/>
-
-    <h3>Technologies</h3>
-
-    <br/>
-
-    <div class="container flex-container col-6">
-      <% @images.each do |image| %>
-        <%= image_tag image, class: 'tech-icon' %>
-      <% end %>
-    </div>
-
-    <br/>
-
-    <h2 class="container">Projects</h2>
-
-    <br/>
+    <br/><br/>
 
     <div class="container">
-      <div class="col-10">
+      <div class="box col-9">
+
+        <h2>Andy Strube</h2>
+        <h4>andystrube64@gmail.com</h4>
+        <h4>
+          <a class="link" href="https://github.com/Learningstuff98">Github</a>
+          <a class="link" href="https://www.linkedin.com/in/andy-strube-6231ba152/">Linkedin</a>
+          <a class="link" href="https://docs.google.com/document/d/1qm4nBdIZfsx8zh4IwYvkVuQYclpOXUCVxnC9vV3_eBM/edit">Resume</a>
+        </h4>
+
+        <br/>
+
+        <h3>About me</h3>
+
+        <h4>
+          Welcome to my portfolio site!
+          I am a fullstack web developer who enjoys developing high quality websites that have excellent responsiveness.
+          <%= "I greatly enjoy using Ruby on Rails and React and I'm eager to learn new technologies." %>
+          I always think from the perspective of the user to create the best possible user experience.
+        </h4>
+
+        <br/>
+
+        <h3>Volunteer Work with the Ruby for Good Human Essentials App</h3>
+
+        <h4>
+          Implemented full stack functionality that empoweres non-technical site admins to edit user facing content dynamically across different domains
+          along with a search feature that empowers users by allowing them to find information efficiently.
+          Built with Ruby on Rails, Rspec, HTML, Bootstrap and Tailwindcss.
+        </h4>
+ 
+        <br/>
+
+        <h3>Education</h3>
+
+        <h4>
+          UC Berkeley Full Stack  Web Development Certification  March 2019 - August 2019
+        </h4>
+
+        <h4>
+          6 month coding bootcamp that focused on learning how to make full stack websites using
+          Ruby on Rails, Javascript and PostgreSQL.
+        </h4>
+
+        <br/>
+
+        <h3>Technologies</h3>
+
+        <br/>
+
+        <% @images.each do |image| %>
+          <%= image_tag image, class: 'tech-icon' %>
+        <% end %>
+
+        <br/><br/>
+
+        <h2>Projects</h2>
+
+        <br/>
+
         <hr class="divider-line">
         <h2>Chess</h2>
         <h4>
@@ -71,13 +72,10 @@
           <br/><br/>
           <%= link_to 'See Details', chess_path %>
         </h4>
-      </div>
-    </div>
 
-    <br/>
+        <br/>
 
-    <div class="container">
-      <div class="col-10">
+
         <hr class="divider-line">
         <h2>Project Tracker</h2>
         <h4>
@@ -86,13 +84,9 @@
           <br/><br/>
           <%= link_to 'See Details', project_tracker_path %>
         </h4>
-      </div>
-    </div>
 
-    <br/>
+        <br/>
 
-    <div class="container">
-      <div class="col-10">
         <hr class="divider-line">
         <h2>Video App</h2>
         <h4>
@@ -100,13 +94,9 @@
           <br/><br/>
           <%= link_to 'See Details', video_app_path %>
         </h4>
-      </div>
-    </div>
 
-    <br/>
+        <br/>
 
-    <div class="container">
-      <div class="col-10">
         <hr class="divider-line">
         <h2>Blog App</h2>
         <h4>
@@ -114,6 +104,7 @@
           <br/><br/>
           <%= link_to 'See Details', blog_path %>
         </h4>
+
       </div>
     </div>
 

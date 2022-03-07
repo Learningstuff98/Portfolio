@@ -2,12 +2,20 @@
 @import "font-awesome";
 
 body {
-  background: #EFEDE7;
+  background-image: url('desert.png');
+  background-attachment: fixed;
+  background-size: cover;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 a {
   color: green;
+}
+
+.box {
+  background-color: #EFEDE7;;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .portfolio-picture {
