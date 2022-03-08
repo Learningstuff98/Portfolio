@@ -1,7 +1,6 @@
 class StaticPagesController < ApplicationController
 
   def index
-    visit = Visit.create()
     @images = [
       'ruby.png',
       'rails.png',
